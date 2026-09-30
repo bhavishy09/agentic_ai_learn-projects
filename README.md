@@ -21,4 +21,4 @@ Whenever you share new resources, notes, code files, or PDFs, please specify:
 2. The specific topic or sub-topic (e.g., "Intro to LLM Agents", "Tool Use", "RAG & Vector DBs").
 
 I will organize the files, create the folders, and format the notes accordingly!
-# agentic_ai_learn-projects
+# agentic_ai_lea

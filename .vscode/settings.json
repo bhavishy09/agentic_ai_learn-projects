@@ -1,0 +1,43 @@
+{
+  // Enable instant autocomplete suggestions everywhere (including strings & comments)
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "inline",
+  "editor.wordBasedSuggestions": "matchingDocuments",
+  
+  // Parameter hints (shows argument types & docstrings as you type inside functions)
+  "editor.parameterHints.enabled": true,
+  "editor.parameterHints.cycle": true,
+
+  // Inline AI ghost text / code suggestions
+  "editor.inlineSuggest.enabled": true,
+
+  // Enable full autocomplete in Jupyter Notebook cells
+  "notebook.cellEditorQuickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  },
+
+  // Python Language Server & IntelliSense (Pylance)
+  "python.languageServer": "Pylance",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.indexing": true,
+  "python.analysis.packageIndexDepths": [
+    { "name": "langchain", "depth": 5, "includeAllSymbols": true },
+    { "name": "langchain_core", "depth": 5, "includeAllSymbols": true },
+    { "name": "langchain_google_genai", "depth": 5, "includeAllSymbols": true },
+    { "name": "langchain_groq", "depth": 5, "includeAllSymbols": true }
+  ],
+
+  // Point to the active Python environment
+  "python.defaultInterpreterPath": "/opt/anaconda3/bin/python"
+}
